@@ -1,0 +1,11 @@
+<suite name="Play ground API Tests" verbose="1" >
+
+    <test name="Play ground API Tests">
+        <classes>
+            <class name="tests.api.categories.tests.CategoriesEndToEndTests" > </class>
+            <class name="tests.api.categories.tests.CategoriesFiltrationTests" > </class>
+
+        </classes>
+    </test>
+
+</suite>

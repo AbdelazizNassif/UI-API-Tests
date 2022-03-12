@@ -1,0 +1,38 @@
+. You may use any programming languages, libraries and tools you like.
+2. Please create a repo on GitHub to upload the test cases and code for your submission:
+a. Part 1: Upload the UI automation code and include an explanation of the setup to run 
+automated tests
+b. Part 2: Upload the API testing code and include an explanation of the setup to run 
+automated tests
+
+
+lease . 
+Setup your local environment as explained in the “Getting Started” section.
+Please note that if you are using node JS version 14 or higher this extra command is needed following 
+npm install command:
+npm i sqlite3 -D
+Identify and implement a comprehensive list of test cases which cover the CATEGORIES endpoint
+
+
+UI and API testing project:
+Used programming language: Java 17.
+Libraries and Tools used for UI testing: Selenium, TestNG, Maven.
+Libraries and Tools used for API testing: Rest Assured.
+How to intall your machine to run the project?
+- Install Java 17 and maven on your machine
+- Clone the project
+
+
+How to install The API environment and get the categories endpoints?
+- Install the playground API environment
+	- visit https://github.com/BestBuy/api-playground
+	- Setup your local environment as explained in the “Getting Started” section.
+		- Please note that if you are using node JS version 14 or higher this extra command "npm i sqlite3 -D" is needed following "npm install command"
+		- Open your browser then access "http://localhost:3030/"
+		- Visit "http://localhost:3030/docs/#/categories" to get Categories endpoints
+
+
+How to run The test cases?
+- Make sure the playground API server is up and running
+- Run the command "mvn test clean"
+	- this command will run the UI test cases and the API test cases
