@@ -3,6 +3,14 @@
 <suite name="Failed suite [Play ground API Tests]" verbose="0">
   <test thread-count="5" name="Play ground API Tests(failed)" verbose="0">
     <classes>
+      <class name="tests.api.categories.tests.CategoriesFiltrationTests">
+        <methods>
+          <include name="setup"/>
+          <include name="getLimitedCategories"/>
+          <include name="setupApiConfigAndTestData"/>
+          <include name="getAllCategories"/>
+        </methods>
+      </class> <!-- tests.api.categories.tests.CategoriesFiltrationTests -->
       <class name="tests.api.categories.tests.CategoriesEndToEndTests">
         <methods>
           <include name="deleteCategory"/>
@@ -13,14 +21,6 @@
           <include name="updateCategory"/>
         </methods>
       </class> <!-- tests.api.categories.tests.CategoriesEndToEndTests -->
-      <class name="tests.api.categories.tests.CategoriesFiltrationTests">
-        <methods>
-          <include name="setup"/>
-          <include name="getLimitedCategories"/>
-          <include name="setupApiConfigAndTestData"/>
-          <include name="getAllCategories"/>
-        </methods>
-      </class> <!-- tests.api.categories.tests.CategoriesFiltrationTests -->
     </classes>
   </test> <!-- Play ground API Tests(failed) -->
 </suite> <!-- Failed suite [Play ground API Tests] -->
