@@ -12,8 +12,8 @@ jobs:
     env:
       HEADLESS_CHROME: true
     steps:
-      - name: Run Tests With Mavan
-        run: echo "START_TIME=$(date+%s)" >> $GITHUB_ENV
+      - name: Set Start Time
+        run: echo "START_TIME=$(date+ %s)" >> $GITHUB_ENV
       - uses: actions/checkout@v2
       - uses: actions/setup-java@v2
         with:
@@ -23,4 +23,4 @@ jobs:
         run: mvn test
       - name: Collect Build Data
         if: always()
-        run: expr $(date+%s) - ${START_TIME}
+        run: expr $(date+ %s) - ${START_TIME}
