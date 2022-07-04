@@ -30,5 +30,9 @@ public class LoginTests extends TestBase {
                 "The page should display 6 products initially");
         softAssert.assertAll("Some Login assertion are not as expected");
     }
+    public void testJessica ()
+    {
+        System.out.println("TEst Jessica");
+    }
 
 }

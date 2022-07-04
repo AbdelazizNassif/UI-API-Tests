@@ -3,8 +3,8 @@
     <test name="Sauce Demo Tests">
         <classes>
             <class name="tests.ui.login.LoginTests" > </class>
-            <class name="tests.ui.cart.CartTests" > </class>
-            <class name="tests.ui.checkout.CheckoutTests" > </class>
+<!--            <class name="tests.ui.cart.CartTests" > </class>-->
+<!--            <class name="tests.ui.checkout.CheckoutTests" > </class>-->
         </classes>
     </test>
 

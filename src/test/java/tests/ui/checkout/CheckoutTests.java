@@ -51,4 +51,9 @@ public class CheckoutTests extends TestBase {
                 "Your order has been dispatched, and will arrive just as fast as the pony can get there!");
         softAssert.assertAll("Some of Checkout assertions are not as expected");
     }
+    @Test
+    public void testFunction ()
+    {
+        System.out.println("New Test");
+    }
 }
